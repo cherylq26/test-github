@@ -1,3 +1,3 @@
 FROM busybox
-RUN pwd
+#RUN pwd
 RUN ls
