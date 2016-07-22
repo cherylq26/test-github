@@ -7,4 +7,7 @@ RUN mkdir bin
 RUN touch test.txt
 RUN javac -d bin src/HelloWorld.java
 RUN apt-get install git
+
+RUN pwd
+
 ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
