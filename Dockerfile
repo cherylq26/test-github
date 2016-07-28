@@ -3,4 +3,4 @@ FROM alpine:latest
 RUN ls -la
 RUN whoami
 RUN pwd
-RUN echo "Jenkins-DTR test 3"
+RUN echo "Autobuild with tags"
