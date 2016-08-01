@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN ls -la
+#RUN ls -la
 RUN whoami
 RUN pwd
-RUN echo "Autobuild with tags 2"
+RUN echo "Autobuild with tags 3"
