@@ -4,4 +4,3 @@ RUN ls -la
 RUN whoami
 RUN pwd
 RUN echo "Jenkins-DTR test 3"
-RUN ls
