@@ -4,4 +4,4 @@ ARG hello
 RUN pwd
 RUN echo $test
 RUN echo $hello
-RUN echo "Hi this won't work"
+RUN echo "Hi will this work"
